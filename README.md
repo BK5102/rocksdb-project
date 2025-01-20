@@ -5,11 +5,11 @@
   2. install ubuntu
   3. sudo apt-get install g++
   4. install dependencies:
-       sudo apt update
-       sudo apt-get install libsnappy-dev
-       sudo apt-get install zlib1g-dev
-       sudo apt-get install liblz4-dev
-       sudo apt-get install libzstd-dev
+       sudo apt update  
+       sudo apt-get install libsnappy-dev  
+       sudo apt-get install zlib1g-dev  
+       sudo apt-get install liblz4-dev 
+       sudo apt-get install libzstd-dev  
 5. build rocksdb
      git clone https://github.com/facebook/rocksdb.git
      cd rocksdb
