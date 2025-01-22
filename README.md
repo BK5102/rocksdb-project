@@ -11,11 +11,11 @@
        sudo apt-get install liblz4-dev 
        sudo apt-get install libzstd-dev  
 5. build rocksdb
-     git clone https://github.com/facebook/rocksdb.git
-     cd rocksdb
-     DEBUG_LEVEL=0 make shared_lib
-     sudo make install-shared
-     sudo ldconfig
+     git clone https://github.com/facebook/rocksdb.git  
+     cd rocksdb  
+     DEBUG_LEVEL=0 make shared_lib  
+     sudo make install-shared  
+     sudo ldconfig  
 
 ## websites used 
 
